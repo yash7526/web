@@ -1,0 +1,30 @@
+div {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: static;
+}
+
+
+/* #relative {
+    position: relative;
+} */
+
+#rel {
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+
+#abs {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+#fxd {
+    position: fixed;
+    top: 90px;
+    left: 180px;
+}
